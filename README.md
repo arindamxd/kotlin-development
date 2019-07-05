@@ -29,6 +29,21 @@ Secure and specific, Seamless user experience, Android Instant Apps support, Eng
 </intent-filter>
 ```
 
+#### Activity/Fragment (Java)
+
+```java
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.activity_main);
+      
+      // ATTENTION: This was auto-generated to handle app links.
+      Intent appLinkIntent = getIntent();
+      String appLinkAction = appLinkIntent.getAction();
+      Uri appLinkData = appLinkIntent.getData();
+}
+```
+
 #### Activity/Fragment (Kotlin)
 
 ```kotlin
