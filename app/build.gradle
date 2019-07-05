@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
@@ -25,6 +29,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlin_version}"
+
+    implementation 'androidx.core:core-ktx:1.0.2'
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 

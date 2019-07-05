@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">certification-training</string>
+    <string name="app_name">training</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://arindamxd.github.io/.well-known/assetlinks.json\" }]</string>
 </resources>
