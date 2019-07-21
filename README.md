@@ -66,8 +66,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 2. Kotlin (Tips & Tricks)
 
-### Null-safety
-### `.use` Extension
+#### * Null-safety
+#### * `.use` Extension
 
 ---
 
