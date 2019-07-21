@@ -20,7 +20,7 @@ import java.io.FileReader
 
 object Resource {
     fun getFile(fileName: String): String {
-        return javaClass.classLoader?.getResource("top-secret.txt")?.file ?: String()
+        return javaClass.classLoader?.getResource(fileName)?.file ?: String()
     }
 }
 
