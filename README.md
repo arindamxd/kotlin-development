@@ -62,6 +62,13 @@ override fun onCreate(savedInstanceState: Bundle?) {
 * https://arindamxd.github.io/main
 * https://arindamxd.github.io/payment
 
+--
+
+## 2. Kotlin (Tips & Tricks)
+
+### Null-safety
+### `.use` Extension
+
 ---
 
 ### Find this project useful ? :heart:
