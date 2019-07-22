@@ -59,13 +59,13 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 #### App Link URL
 
-* https://arindamxd.github.io/main
-* https://arindamxd.github.io/payment
+- https://arindamxd.github.io/main
+- https://arindamxd.github.io/payment
 
 ## 2. Kotlin (Tips & Tricks)
 
-#### [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
-#### [`.use` Extension]()
+- [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
+- [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
 
 ---
 
@@ -78,9 +78,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ### Contact - Let's become friends
 
-* [Twitter](https://twitter.com/arindamxd)
-* [Linkedin](https://in.linkedin.com/in/arindamxd)
-* [GitHub](https://github.com/arindamxd)
+- [Twitter](https://twitter.com/arindamxd)
+- [Linkedin](https://in.linkedin.com/in/arindamxd)
+- [GitHub](https://github.com/arindamxd)
 
 ### License
 
