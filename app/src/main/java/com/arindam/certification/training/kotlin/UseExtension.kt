@@ -1,8 +1,6 @@
 package com.arindam.certification.training.kotlin
 
-import android.content.res.Resources
 import com.arindam.certification.training.kotlin.Resource.getFile
-import java.io.File
 import java.io.FileReader
 
 /**
@@ -33,4 +31,24 @@ fun main() {
     }
 
     println(text)
+    //println(busyButNotEffective())
+}
+
+/**
+ * Resource management without the `.use` extension function! Please don't do this.
+ */
+private fun busyButNotEffective(): String? {
+    var reader: FileReader? = null
+    return try {
+        reader = FileReader(getFile("top-secret.txt"))
+        reader.readText()
+    } catch (e: Exception) {
+        null
+    } finally {
+        try {
+            reader?.close()
+        } catch (e: Exception) {
+            /* swallow! */
+        }
+    }
 }
