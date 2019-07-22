@@ -17,9 +17,6 @@ fun main() {
     val cake = Cake()
     val smoorCake = SmoorCake()
 
-    // > com.arindam.certification.training.kotlin.class_one.Cake
-    println(cake::class.java.name)
-
-    // > com.arindam.certification.training.kotlin.class_two.Cake
-    println(smoorCake::class.java.name)
+    println(cake::class.java.name) // > com.arindam.certification.training.kotlin.class_one.Cake
+    println(smoorCake::class.java.name) // > com.arindam.certification.training.kotlin.class_two.Cake
 }

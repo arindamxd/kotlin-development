@@ -64,7 +64,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 2. [Kotlin](https://kotlinlang.org/) Training
 
-### #30DaysOfKotlin by [@ragunathjawahar](https://twitter.com/ragunathjawahar)
+### #30DaysOfKotlin by [@ragunathjawahar](https://github.com/ragunathjawahar)
 
 - Day 1: [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
 - Day 2: [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
@@ -76,6 +76,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 7: [Short and Group](app/src/main/java/com/arindam/certification/training/kotlin/ShortAndGroup.kt)
 - Day 8: [Tail Recursion](app/src/main/java/com/arindam/certification/training/kotlin/TailRecursion.kt)
 - Day 9: [Two Same Class Name](app/src/main/java/com/arindam/certification/training/kotlin/SameClassName.kt)
+- Day 9: [Vetoable](app/src/main/java/com/arindam/certification/training/kotlin/Vetoable.kt)
 
 ---
 
