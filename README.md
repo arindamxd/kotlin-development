@@ -66,6 +66,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 - [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
 - [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
+- [Mask Credit Card Number](app/src/main/java/com/arindam/certification/training/kotlin/CreditCardNumberMask.kt)
 
 ---
 
