@@ -31,7 +31,8 @@ fun main() {
     }
 
     println(text)
-    //println(busyButNotEffective())
+
+    println(busyButNotEffective())
 }
 
 /**

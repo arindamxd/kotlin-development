@@ -8,18 +8,18 @@ package com.arindam.certification.training.kotlin
  */
 
 data class Person(
-        val firstName: String, // 1. Non-nullable `String` property.
+        val firstName: String, // (1/3) Non-nullable `String` property.
         val lastName: String
 )
 
 fun main() {
     val person = Person("Arindam", "Karmakar")
 
-    // 2. Set `firstName` to `null` using reflection.
+    // (2/3) Set `firstName` to `null` using reflection.
     Person::class.java.getDeclaredField("firstName").apply {
         isAccessible = true
         set(person, null)
     }
 
-    println(person.firstName) // 3. null
+    println(person.firstName) // (3/3) null
 }
