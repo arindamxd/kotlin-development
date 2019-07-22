@@ -72,6 +72,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 4: [Grocery Shopping](app/src/main/java/com/arindam/certification/training/kotlin/GroceryShopping.kt)
 - Day 5: [Immutability](app/src/main/java/com/arindam/certification/training/kotlin/Immutability.kt)
 - Day 5: [Partition](app/src/main/java/com/arindam/certification/training/kotlin/Partition.kt)
+- Day 6: [Replace Deprecated Functions](app/src/main/java/com/arindam/certification/training/kotlin/ReplaceDeprecated.kt)
 
 ---
 
