@@ -69,15 +69,18 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 1: [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
 - Day 2: [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
 - Day 3: [Mask Credit Card Number](app/src/main/java/com/arindam/certification/training/kotlin/CreditCardNumberMask.kt)
+- Day 4: [Grocery Shopping](app/src/main/java/com/arindam/certification/training/kotlin/GroceryShopping.kt)
+- Day 5: [Immutability](app/src/main/java/com/arindam/certification/training/kotlin/Immutability.kt)
+- Day 5: [Partition](app/src/main/java/com/arindam/certification/training/kotlin/Partition.kt)
 
 ---
 
 ### Find this project useful ? :heart:
-* Support it by clicking the :star: button on the upper right of this page. :v:
+> Support it by clicking the :star: button on the upper right of this page. :v:
 
 ### TODO
 
-* Add many more features and bug fixes.
+> Add many more features and bug fixes.
 
 ### Contact - Let's become friends
 
