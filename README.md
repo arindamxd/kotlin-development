@@ -62,7 +62,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - https://arindamxd.github.io/main
 - https://arindamxd.github.io/payment
 
-## 2. Kotlin Training
+## 2. [Kotlin](https://kotlinlang.org/) Training
 
 ### #30DaysOfKotlin by [@ragunathjawahar](https://twitter.com/ragunathjawahar)
 
