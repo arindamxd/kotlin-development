@@ -31,7 +31,7 @@ Secure and specific, Seamless user experience, Android Instant Apps support, Eng
 
 #### Activity/Fragment (Java)
 
-```java
+```
 @Override
 protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
@@ -74,6 +74,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 5: [Partition](app/src/main/java/com/arindam/certification/training/kotlin/Partition.kt)
 - Day 6: [Replace Deprecated Functions](app/src/main/java/com/arindam/certification/training/kotlin/ReplaceDeprecated.kt)
 - Day 7: [Short and Group](app/src/main/java/com/arindam/certification/training/kotlin/ShortAndGroup.kt)
+- Day 8: [Tail Recursion](app/src/main/java/com/arindam/certification/training/kotlin/TailRecursion.kt)
+- Day 9: [Two Same Class Name](app/src/main/java/com/arindam/certification/training/kotlin/SameClassName.kt)
 
 ---
 
