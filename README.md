@@ -62,11 +62,13 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - https://arindamxd.github.io/main
 - https://arindamxd.github.io/payment
 
-## 2. Kotlin (Tips & Tricks)
+## 2. Kotlin Training
 
-- [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
-- [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
-- [Mask Credit Card Number](app/src/main/java/com/arindam/certification/training/kotlin/CreditCardNumberMask.kt)
+### #30DaysOfKotlin by [@ragunathjawahar](https://twitter.com/ragunathjawahar)
+
+- Day 1: [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
+- Day 2: [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
+- Day 3: [Mask Credit Card Number](app/src/main/java/com/arindam/certification/training/kotlin/CreditCardNumberMask.kt)
 
 ---
 
