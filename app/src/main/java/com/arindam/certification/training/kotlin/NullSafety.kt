@@ -8,8 +8,8 @@ package com.arindam.certification.training.kotlin
  */
 
 data class Person(
-    val firstName: String, // 1. Non-nullable string property.
-    val lastName: String
+        val firstName: String, // 1. Non-nullable string property.
+        val lastName: String
 )
 
 fun main() {

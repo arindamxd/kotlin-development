@@ -48,7 +48,7 @@ private fun busyButNotEffective(): String? {
         try {
             reader?.close()
         } catch (e: Exception) {
-            /* swallow! */
+            /* swallow! 👀 */
         }
     }
 }
