@@ -25,5 +25,5 @@ fun increment(number: Int): Int = number + 1 // (1/5) Replacement for deprecated
 fun addOne(count: Int): Int = count + 1
 
 fun main() {
-    addOne(0) // (5/5) Use the IDE's quick-fix feature to replace deprecated function calls.
+    println(addOne(0)) // (5/5) Use the IDE's quick-fix feature to replace deprecated function calls.
 }
