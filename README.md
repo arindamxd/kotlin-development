@@ -76,7 +76,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 7: [Short and Group](app/src/main/java/com/arindam/certification/training/kotlin/ShortAndGroup.kt)
 - Day 8: [Tail Recursion](app/src/main/java/com/arindam/certification/training/kotlin/TailRecursion.kt)
 - Day 9: [Two Same Class Name](app/src/main/java/com/arindam/certification/training/kotlin/SameClassName.kt)
-- Day 9: [Vetoable](app/src/main/java/com/arindam/certification/training/kotlin/Vetoable.kt)
+- Day 10: [Vetoable](app/src/main/java/com/arindam/certification/training/kotlin/Vetoable.kt)
+- Day 11: [Serialization](app/src/main/java/com/arindam/certification/training/kotlin/Serialization.kt)
 
 ---
 
