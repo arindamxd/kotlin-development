@@ -78,6 +78,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 9: [Two Same Class Name](app/src/main/java/com/arindam/certification/training/kotlin/SameClassName.kt)
 - Day 10: [Vetoable](app/src/main/java/com/arindam/certification/training/kotlin/Vetoable.kt)
 - Day 11: [Serialization](app/src/main/java/com/arindam/certification/training/kotlin/Serialization.kt)
+- Day 12: [Sorted By Functions](app/src/main/java/com/arindam/certification/training/kotlin/SortedByFunctions.kt)
 
 ---
 
