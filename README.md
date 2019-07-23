@@ -31,7 +31,7 @@ Secure and specific, Seamless user experience, Android Instant Apps support, Eng
 
 #### Activity/Fragment (Java)
 
-```
+```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
