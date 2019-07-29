@@ -66,17 +66,21 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ### #30DaysOfKotlin
 
-- Day 1: [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
-- Day 2: [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
-- Day 3: [Mask Credit Card Number](app/src/main/java/com/arindam/certification/training/kotlin/CreditCardNumberMask.kt)
-- Day 4: [Grocery Shopping](app/src/main/java/com/arindam/certification/training/kotlin/GroceryShopping.kt)
-- Day 5: [Immutability](app/src/main/java/com/arindam/certification/training/kotlin/Immutability.kt)
-- Day 5: [Partition](app/src/main/java/com/arindam/certification/training/kotlin/Partition.kt)
-- Day 6: [Replace Deprecated Functions](app/src/main/java/com/arindam/certification/training/kotlin/ReplaceDeprecated.kt)
-- Day 7: [Short and Group](app/src/main/java/com/arindam/certification/training/kotlin/ShortAndGroup.kt)
-- Day 8: [Tail Recursion](app/src/main/java/com/arindam/certification/training/kotlin/TailRecursion.kt)
-- Day 9: [Two Same Class Name](app/src/main/java/com/arindam/certification/training/kotlin/SameClassName.kt)
-- Day 9: [Vetoable](app/src/main/java/com/arindam/certification/training/kotlin/Vetoable.kt)
+- Day 1: [Synthetics](app/src/main/java/com/arindam/certification/training/kotlin/Synthetics.kt)
+- Day 2: [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
+- Day 3: [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
+- Day 4: [Mask Credit Card Number](app/src/main/java/com/arindam/certification/training/kotlin/CreditCardNumberMask.kt)
+- Day 5: [Grocery Shopping](app/src/main/java/com/arindam/certification/training/kotlin/GroceryShopping.kt)
+- Day 6: [Immutability](app/src/main/java/com/arindam/certification/training/kotlin/Immutability.kt)
+- Day 7: [Partition](app/src/main/java/com/arindam/certification/training/kotlin/Partition.kt)
+- Day 8: [Replace Deprecated Functions](app/src/main/java/com/arindam/certification/training/kotlin/ReplaceDeprecated.kt)
+- Day 9: [Short and Group](app/src/main/java/com/arindam/certification/training/kotlin/ShortAndGroup.kt)
+- Day 10: [Tail Recursion](app/src/main/java/com/arindam/certification/training/kotlin/TailRecursion.kt)
+- Day 11: [Two Same Class Name](app/src/main/java/com/arindam/certification/training/kotlin/SameClassName.kt)
+- Day 12: [Vetoable](app/src/main/java/com/arindam/certification/training/kotlin/Vetoable.kt)
+- Day 13: [Serialization](app/src/main/java/com/arindam/certification/training/kotlin/Serialization.kt)
+- Day 14: [Sorted By Functions](app/src/main/java/com/arindam/certification/training/kotlin/SortedByFunctions.kt)
+- Day 15: [Sequences](app/src/main/java/com/arindam/certification/training/kotlin/Sequences.kt)
 
 ---
 
