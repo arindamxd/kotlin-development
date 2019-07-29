@@ -1,7 +1,7 @@
 package com.arindam.certification.training.kotlin
 
 /**
- * Chop🔪 chop🔪... that's how we partition a list using a predicate 😉
+ * Chop 🔪 chop 🔪 ... that's how we partition a list using a predicate 😉
  *
  * Created by Arindam Karmakar on 22/7/19.
  */

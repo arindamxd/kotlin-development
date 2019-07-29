@@ -31,7 +31,7 @@ Secure and specific, Seamless user experience, Android Instant Apps support, Eng
 
 #### Activity/Fragment (Java)
 
-```
+```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
@@ -64,7 +64,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 2. [Kotlin](https://kotlinlang.org/) Training
 
-### #30DaysOfKotlin by [@ragunathjawahar](https://github.com/ragunathjawahar)
+### #30DaysOfKotlin
 
 - Day 1: [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
 - Day 2: [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
