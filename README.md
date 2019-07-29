@@ -81,6 +81,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 13: [Serialization](app/src/main/java/com/arindam/certification/training/kotlin/Serialization.kt)
 - Day 14: [Sorted By Functions](app/src/main/java/com/arindam/certification/training/kotlin/SortedByFunctions.kt)
 - Day 15: [Sequences](app/src/main/java/com/arindam/certification/training/kotlin/Sequences.kt)
+- Day 16: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/certification/training/kotlin/Timestamp.kt)
 
 ---
 

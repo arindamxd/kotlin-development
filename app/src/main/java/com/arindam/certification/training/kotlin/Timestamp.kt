@@ -132,14 +132,14 @@ internal fun isoDaysBackDate(calendar: Calendar, days: Int): String {
 }
 
 fun main() {
-    val time1 = parseUTC("2019-07-26T09:06:24+00:00") // > 1564131984000
-    val time2 = utcFromDate(time1) // > 2019-07-26T09:06:24+00:00
+    val time1 = parseUTC("2019-07-26T09:06:24+00:00")
+    val time2 = utcFromDate(1564131984000)
 
     val time3 = getCurrentTimeStamp()
     val time4 = getCurrentTimeStampSimpleFormat()
 
-    println(time1)
-    println(time2)
+    println(time1) // > 1564131984000
+    println(time2) // > 2019-07-26T09:06:24+00:00
 
     println(time3)
     println(time4)
