@@ -21,9 +21,10 @@ class SortingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val searchList = listOf(
+                RecentSearch(2, "dog"),
                 RecentSearch(0, "harry"),
                 RecentSearch(1, "car"),
-                RecentSearch(2, "dog")
+                RecentSearch(3, "android")
         )
 
         // Mutable Live Data
@@ -64,21 +65,43 @@ class SortingActivity : AppCompatActivity() {
         }
 
 
+        // Sorted Set
+        val sortedSetList = searchMutableLiveData.value?.toSortedSet(
+                Comparator { a, b ->
+                    when {
+                        a.id > b.id -> 1
+                        a.id < b.id -> -1
+                        else -> 0
+                    }
+                }
+        )
+
+
         // Outputs
-        Log.e("Sort By", sortByList.toString()) // > [RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog), RecentSearch(id=0, name=harry)]
-        Log.e("Sorted By Descending", sortedByDescendingList.toString()) // > [RecentSearch(id=2, name=dog), RecentSearch(id=1, name=car), RecentSearch(id=0, name=harry)]
-        Log.e("Sorted With", sortedWithList.toString()) // > [RecentSearch(id=0, name=harry), RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog)]
+        Log.e("Sort By", sortByList.toString())
+        // > [RecentSearch(id=3, name=android), RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog), RecentSearch(id=0, name=harry)]
+
+        Log.e("Sorted By Descending", sortedByDescendingList.toString())
+        // > [RecentSearch(id=3, name=android), RecentSearch(id=2, name=dog), RecentSearch(id=1, name=car), RecentSearch(id=0, name=harry)]
+
+        Log.e("Sorted With", sortedWithList.toString())
+        // > [RecentSearch(id=0, name=harry), RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog), RecentSearch(id=3, name=android)]
+
+        Log.e("Sorted Set", sortedSetList.toString())
 
 
         // Observe Live Data
         sortByLiveDataList.observe(this, Observer {
-            Log.e("LiveData", "Sort By: $it") // > [RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog), RecentSearch(id=0, name=harry)]
+            Log.e("LiveData", "Sort By: $it")
+            // > [RecentSearch(id=3, name=android), RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog), RecentSearch(id=0, name=harry)]
         })
         sortedByDescendingLiveDataList.observe(this, Observer {
-            Log.e("LiveData", "Sorted By Descending: $it") // > [RecentSearch(id=2, name=dog), RecentSearch(id=1, name=car), RecentSearch(id=0, name=harry)]
+            Log.e("LiveData", "Sorted By Descending: $it")
+            // > [RecentSearch(id=3, name=android), RecentSearch(id=2, name=dog), RecentSearch(id=1, name=car), RecentSearch(id=0, name=harry)]
         })
         sortedWithLiveDataList.observe(this, Observer {
-            Log.e("LiveData", "Sorted With: $it") // > [RecentSearch(id=0, name=harry), RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog)]
+            Log.e("LiveData", "Sorted With: $it")
+            // > [RecentSearch(id=0, name=harry), RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog), RecentSearch(id=3, name=android)]
         })
     }
 
