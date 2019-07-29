@@ -4,10 +4,10 @@
     package="com.arindam.certification.training">
 
     <!-- Paytm Permission -->
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.READ_SMS"/>
-    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +21,7 @@
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
 
-        <activity android:name=".home.MainActivity">
+        <activity android:name=".home.SortingActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,6 +58,8 @@
             </intent-filter>
 
         </activity>
+
+        <activity android:name=".home.MainActivity" />
 
     </application>
 
