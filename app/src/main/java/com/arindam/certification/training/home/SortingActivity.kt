@@ -34,7 +34,9 @@ class SortingActivity : AppCompatActivity() {
 
         // Sort By
         val sortByList = searchMutableLiveData.value?.sortedBy { it.name }
-        val sortByLiveDataList: LiveData<List<RecentSearch>> = Transformations.map(searchMutableLiveData) { it.sortedBy { item -> item.name } }
+        val sortByLiveDataList: LiveData<List<RecentSearch>> = Transformations.switchMap(searchMutableLiveData) {
+            list -> getCustomList(list)
+        }
 
 
         // Sorted By Descending
@@ -103,6 +105,26 @@ class SortingActivity : AppCompatActivity() {
             Log.e("LiveData", "Sorted With: $it")
             // > [RecentSearch(id=0, name=harry), RecentSearch(id=1, name=car), RecentSearch(id=2, name=dog), RecentSearch(id=3, name=android)]
         })
+    }
+
+    private fun getCustomList(list: List<RecentSearch>): LiveData<List<RecentSearch>> {
+        val n = MutableLiveData<List<RecentSearch>>()
+
+        for(item in list.listIterator()) {
+            val index = list.indexOf(item)
+            println(index)
+
+            if (index == 1) {
+                item.name = "arindam"
+            }
+
+            if (index == 0 && item.id == 2) {
+                item.name = "cat"
+            }
+        }
+
+        n.value = list
+        return n
     }
 
     override fun onDestroy() {

@@ -10,7 +10,7 @@ import androidx.lifecycle.Transformations
 
 data class RecentSearch(
         val id: Int = 0,
-        val name: String
+        var name: String = String()
 )
 
 fun main() {
