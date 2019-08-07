@@ -30,21 +30,6 @@ Google Search
 </intent-filter>
 ```
 
-#### Activity/Fragment (Java)
-
-```java
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-      super.onCreate(savedInstanceState);
-      setContentView(R.layout.activity_main);
-      
-      // ATTENTION: This was auto-generated to handle app links.
-      Intent appLinkIntent = getIntent();
-      String appLinkAction = appLinkIntent.getAction();
-      Uri appLinkData = appLinkIntent.getData();
-}
-```
-
 #### Activity/Fragment (Kotlin)
 
 ```kotlin
@@ -62,6 +47,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 - https://arindamxd.github.io/main
 - https://arindamxd.github.io/payment
+
+
 
 ## 2. [Kotlin](https://kotlinlang.org/) Training
 
@@ -87,6 +74,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 18: [Infix Function](app/src/main/java/com/arindam/android/training/kotlin/InfixFunction.kt)
 
 
+
 ## 3. Dynamic & Pinned [Shortcuts](https://developer.android.com/guide/topics/ui/shortcuts)
 
 ### Handling Dynamic & Pinned Shortcuts [(Package)](app/src/main/java/com/arindam/android/training/shortcuts)
@@ -100,6 +88,7 @@ shortcuts, it can still disable them.
 - Activities: [OldActivity](app/src/main/java/com/arindam/android/training/shortcuts/OldActivity.kt), [NewActivity](app/src/main/java/com/arindam/android/training/shortcuts/NewActivity.kt)
 
 
+
 ## 4. Activity Alias [Element](https://developer.android.com/guide/topics/manifest/activity-alias-element)
 
 ### Understanding Activity Aliases in Android To Preserve Your Launchers
@@ -107,6 +96,7 @@ shortcuts, it can still disable them.
 Activity name, we use the concept of Activtiy-Alias.
 
 - Manifest: [\<activity-alias\>](app/src/main/AndroidManifest.xml#L63&L74) `LaunchActivity`
+
 
 
 ## 5. Material [Dark Theme](https://material.io/develop/android/theming/dark/)
