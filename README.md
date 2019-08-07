@@ -106,6 +106,18 @@ Activity name, we use the concept of Activtiy-Alias.
 
 - Manifest: [\<activity-alias\>](app/src/main/AndroidManifest.xml#L63&L74) `LaunchActivity`
 
+
+## 5. Material [Dark Theme](https://material.io/develop/android/theming/dark/)
+
+### Implementing Dark Mode Theme in Android
+> Some of the most common benefits of a dark theme include conserving battery power for devices 
+with OLED screens, reducing eye strain, and facilitating use in low-light environments. Starting 
+with Android Q, users are now able to switch their device into dark theme via a new system 
+setting, which applies to both the Android system UI and apps running on the device.
+
+- Helper: [ThemeHelper](app/src/main/java/com/arindam/android/training/daynight/ThemeHelper.kt)
+- Activity: [DayNightActivity](app/src/main/java/com/arindam/android/training/daynight/DayNightActivity.kt)
+
 ---
 
 ### Find this project useful ? :heart:

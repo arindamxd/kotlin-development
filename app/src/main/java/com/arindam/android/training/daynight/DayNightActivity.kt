@@ -15,8 +15,15 @@ class DayNightActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_daynight)
 
+
+        // Set Dark Mode
         dark_mode.setOnClickListener {
             ThemeHelper.applyTheme(ThemeHelper.darkMode)
+        }
+
+        // Set Light Mode
+        light_mode.setOnClickListener {
+            ThemeHelper.applyTheme(ThemeHelper.lightMode)
         }
     }
 }
