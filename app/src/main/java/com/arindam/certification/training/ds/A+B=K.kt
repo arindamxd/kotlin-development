@@ -6,13 +6,22 @@ package com.arindam.certification.training.ds
  * Sample Result: a = 3, b = 5
  * Print {3, 5}, {2, 6}
  *
- * Created by Arindam Karmakar on 29/7/19.
+ * Created by Roopan C on 29/7/19.
  */
 
 fun main() {
 
+    val input = arrayOf(1, 2, 3, 4, 5, 6, 8, 10, 12)
     val k = 8
-    val list = listOf("a", "b", "c")
 
+    val set = HashSet<Int>()
+    for (a in input) {
 
+        val b = k - a
+        if (set.contains(b)) {
+            println("Sum of $k is $a and $b")
+        }
+
+        set.add(a)
+    }
 }
