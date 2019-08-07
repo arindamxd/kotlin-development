@@ -87,7 +87,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 3. Dynamic & Pinned [Shortcuts](https://developer.android.com/guide/topics/ui/shortcuts)
 
-### Handling Dynamic & Pinned Shortcuts [Package](app/src/main/java/com/arindam/android/training/shortcuts)
+### Handling Dynamic & Pinned Shortcuts [(Package)](app/src/main/java/com/arindam/android/training/shortcuts)
 > Although you can publish up to five shortcuts (static and dynamic shortcuts combined) at a time 
 for your app, most launchers can only display four. However, there is no limit to the number of
 pinned shortcuts to your app that users can create. Even though your app cannot remove pinned
