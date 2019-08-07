@@ -7,7 +7,7 @@ Advanced Android Developement Practise
 
 ---
 
-## 1. [App Link](https://developer.android.com/training/app-links)
+## 1. App [Link](https://developer.android.com/training/app-links)
 
 ### Handling Android App Links (Deep linking)
 > Secure and specific, Seamless user experience, Android Instant Apps support, Engage users from 
