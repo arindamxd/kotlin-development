@@ -6,4 +6,11 @@
     <string name="compose_shortcut_short_label">New</string>
     <string name="compose_shortcut_long_label">New Activity</string>
     <string name="compose_disabled_message">New Disabled</string>
+
+    <string name="daynight_shortcut_short_label">DayNight</string>
+    <string name="daynight_shortcut_long_label">DayNight Activity</string>
+    <string name="daynight_disabled_message">DayNight Disabled</string>
+
+    <string name="mode_dark">Dark Mode</string>
+    <string name="mode_light">Light Mode</string>
 </resources>
