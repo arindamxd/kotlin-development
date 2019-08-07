@@ -104,7 +104,7 @@ shortcuts, it can still disable them.
 > So, in order to keep the shortcut on the home screen, even after the change in the Launcher 
 Activity name, we use the concept of Activtiy-Alias.
 
-- Manifest: `LaunchActivity` [\<activity-alias\>](app/src/main/AndroidManifest.xml#L63&L74)
+- Manifest: [\<activity-alias\>](app/src/main/AndroidManifest.xml#L63&L74) `LaunchActivity`
 
 ---
 
