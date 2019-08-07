@@ -41,4 +41,6 @@ fun main() {
 
     val decision = johnDoe process myVisaApplication
     decision sendIntimationVia if (decision == APPROVED) EMAIL else SMS
+
+    println(decision) // > REJECTED
 }
