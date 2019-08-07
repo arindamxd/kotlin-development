@@ -7,7 +7,7 @@ Advanced Android Developement Practise
 
 ---
 
-## 1. [App Link](https://developer.android.com/training/app-links)
+## 1. App [Link](https://developer.android.com/training/app-links)
 
 ### Handling Android App Links (Deep linking)
 > Secure and specific, Seamless user experience, Android Instant Apps support, Engage users from 
@@ -98,13 +98,25 @@ shortcuts, it can still disable them.
 - Activities: [OldActivity](app/src/main/java/com/arindam/android/training/shortcuts/OldActivity.kt), [NewActivity](app/src/main/java/com/arindam/android/training/shortcuts/NewActivity.kt)
 
 
-## 4. Activity Alias [\<activity-alias\>](https://developer.android.com/guide/topics/manifest/activity-alias-element)
+## 4. Activity Alias [Element](https://developer.android.com/guide/topics/manifest/activity-alias-element)
 
 ### Understanding Activity Aliases in Android To Preserve Your Launchers
 > So, in order to keep the shortcut on the home screen, even after the change in the Launcher 
 Activity name, we use the concept of Activtiy-Alias.
 
-- Manifest: `LaunchActivity` [\<activity-alias\>](app/src/main/AndroidManifest.xml#L63&L74)
+- Manifest: [\<activity-alias\>](app/src/main/AndroidManifest.xml#L63&L74) `LaunchActivity`
+
+
+## 5. Material [Dark Theme](https://material.io/develop/android/theming/dark/)
+
+### Implementing Dark Mode Theme in Android
+> Some of the most common benefits of a dark theme include conserving battery power for devices 
+with OLED screens, reducing eye strain, and facilitating use in low-light environments. Starting 
+with Android Q, users are now able to switch their device into dark theme via a new system 
+setting, which applies to both the Android system UI and apps running on the device.
+
+- Helper: [ThemeHelper](app/src/main/java/com/arindam/android/training/daynight/ThemeHelper.kt)
+- Activity: [DayNightActivity](app/src/main/java/com/arindam/android/training/daynight/DayNightActivity.kt)
 
 ---
 
