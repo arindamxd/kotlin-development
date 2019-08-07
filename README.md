@@ -98,7 +98,7 @@ shortcuts, it can still disable them.
 - Activities: [OldActivity](app/src/main/java/com/arindam/android/training/shortcuts/OldActivity.kt), [NewActivity](app/src/main/java/com/arindam/android/training/shortcuts/NewActivity.kt)
 
 
-## 4. Activity Alias [<activity-alias>](https://developer.android.com/guide/topics/manifest/activity-alias-element)
+## 4. Activity Alias [\<activity-alias\>](https://developer.android.com/guide/topics/manifest/activity-alias-element)
 
 ### Understanding Activity Aliases in Android To Preserve Your Launchers
 > So, in order to keep the shortcut on the home screen, even after the change in the Launcher 
