@@ -10,7 +10,8 @@ Advanced Android Developement Practise
 ## 1. [App Link](https://developer.android.com/training/app-links)
 
 ### Handling Android App Links (Deep linking)
-Secure and specific, Seamless user experience, Android Instant Apps support, Engage users from Google Search
+> Secure and specific, Seamless user experience, Android Instant Apps support, Engage users from 
+Google Search
 
 
 #### Manifest
@@ -66,22 +67,44 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ### #30DaysOfKotlin
 
-- Day 1: [Synthetics](app/src/main/java/com/arindam/certification/training/kotlin/Synthetics.kt)
-- Day 2: [Null-safety](app/src/main/java/com/arindam/certification/training/kotlin/NullSafety.kt)
-- Day 3: [`.use` Extension](app/src/main/java/com/arindam/certification/training/kotlin/UseExtension.kt)
-- Day 4: [Mask Credit Card Number](app/src/main/java/com/arindam/certification/training/kotlin/CreditCardNumberMask.kt)
-- Day 5: [Grocery Shopping](app/src/main/java/com/arindam/certification/training/kotlin/GroceryShopping.kt)
-- Day 6: [Immutability](app/src/main/java/com/arindam/certification/training/kotlin/Immutability.kt)
-- Day 7: [Partition](app/src/main/java/com/arindam/certification/training/kotlin/Partition.kt)
-- Day 8: [Replace Deprecated Functions](app/src/main/java/com/arindam/certification/training/kotlin/ReplaceDeprecated.kt)
-- Day 9: [Short and Group](app/src/main/java/com/arindam/certification/training/kotlin/ShortAndGroup.kt)
-- Day 10: [Tail Recursion](app/src/main/java/com/arindam/certification/training/kotlin/TailRecursion.kt)
-- Day 11: [Two Same Class Name](app/src/main/java/com/arindam/certification/training/kotlin/SameClassName.kt)
-- Day 12: [Vetoable](app/src/main/java/com/arindam/certification/training/kotlin/Vetoable.kt)
-- Day 13: [Serialization](app/src/main/java/com/arindam/certification/training/kotlin/Serialization.kt)
-- Day 14: [Sorted By Functions](app/src/main/java/com/arindam/certification/training/kotlin/SortedByFunctions.kt)
-- Day 15: [Sequences](app/src/main/java/com/arindam/certification/training/kotlin/Sequences.kt)
-- Day 16: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/certification/training/kotlin/Timestamp.kt)
+- Day 1: [Synthetics](app/src/main/java/com/arindam/android/training/kotlin/Synthetics.kt)
+- Day 2: [Null-safety](app/src/main/java/com/arindam/android/training/kotlin/NullSafety.kt)
+- Day 3: [`.use` Extension](app/src/main/java/com/arindam/android/training/kotlin/UseExtension.kt)
+- Day 4: [Mask Credit Card Number](app/src/main/java/com/arindam/android/training/kotlin/CreditCardNumberMask.kt)
+- Day 5: [Grocery Shopping](app/src/main/java/com/arindam/android/training/kotlin/GroceryShopping.kt)
+- Day 6: [Immutability](app/src/main/java/com/arindam/android/training/kotlin/Immutability.kt)
+- Day 7: [Partition](app/src/main/java/com/arindam/android/training/kotlin/Partition.kt)
+- Day 8: [Replace Deprecated Functions](app/src/main/java/com/arindam/android/training/kotlin/ReplaceDeprecated.kt)
+- Day 9: [Short and Group](app/src/main/java/com/arindam/android/training/kotlin/ShortAndGroup.kt)
+- Day 10: [Tail Recursion](app/src/main/java/com/arindam/android/training/kotlin/TailRecursion.kt)
+- Day 11: [Two Same Class Name](app/src/main/java/com/arindam/android/training/kotlin/SameClassName.kt)
+- Day 12: [Vetoable](app/src/main/java/com/arindam/android/training/kotlin/Vetoable.kt)
+- Day 13: [Serialization](app/src/main/java/com/arindam/android/training/kotlin/Serialization.kt)
+- Day 14: [Sorted By Functions](app/src/main/java/com/arindam/android/training/kotlin/SortedByFunctions.kt)
+- Day 15: [Sequences](app/src/main/java/com/arindam/android/training/kotlin/Sequences.kt)
+- Day 16: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/android/training/kotlin/Timestamp.kt)
+
+
+## 3. Dynamic & Pinned [Shortcuts](https://developer.android.com/guide/topics/ui/shortcuts)
+
+### Handling Dynamic & Pinned Shortcuts [Package](app/src/main/java/com/arindam/android/training/shortcuts)
+> Although you can publish up to five shortcuts (static and dynamic shortcuts combined) at a time 
+for your app, most launchers can only display four. However, there is no limit to the number of
+pinned shortcuts to your app that users can create. Even though your app cannot remove pinned
+shortcuts, it can still disable them.
+
+- Manifest: [Meta Data](app/src/main/AndroidManifest.xml#L73)
+- Shortcut: [XML](app/src/main/res/xml/shortcuts.xml)
+- Activities: [OldActivity](app/src/main/java/com/arindam/android/training/shortcuts/OldActivity.kt), [NewActivity](app/src/main/java/com/arindam/android/training/shortcuts/NewActivity.kt)
+
+
+## 4. Activity Alias [<activity-alias>](https://developer.android.com/guide/topics/manifest/activity-alias-element)
+
+### Understanding Activity Aliases in Android To Preserve Your Launchers
+> So, in order to keep the shortcut on the home screen, even after the change in the Launcher 
+Activity name, we use the concept of Activtiy-Alias.
+
+- Manifest: `LaunchActivity` [<activity-alias>](app/src/main/AndroidManifest.xml#L63)
 
 ---
 

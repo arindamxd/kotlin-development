@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.arindam.certification.training">
+    package="com.arindam.android.training">
 
     <!-- Paytm Permission -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -21,15 +21,11 @@
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
 
-        <activity android:name=".home.SortingActivity">
+        <activity android:name="com.arindam.android.training.home.MainActivity">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <intent-filter android:autoVerify="true" tools:targetApi="m">
+            <intent-filter
+                android:autoVerify="true"
+                tools:targetApi="m">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -43,7 +39,7 @@
 
         </activity>
 
-        <activity android:name=".payment.PaymentActivity">
+        <activity android:name="com.arindam.android.training.payment.PaymentActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -59,8 +55,23 @@
 
         </activity>
 
-        <activity android:name=".home.MainActivity" />
+        <activity android:name="com.arindam.android.training.home.SortingActivity" />
 
+        <activity android:name="com.arindam.android.training.shortcuts.OldActivity" />
+        <activity android:name="com.arindam.android.training.shortcuts.NewActivity" />
+
+        <activity-alias
+            android:name="LaunchActivity"
+            android:targetActivity="com.arindam.android.training.shortcuts.OldActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity-alias>
     </application>
 
 </manifest>
