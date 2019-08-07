@@ -83,7 +83,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 14: [Sorted By Functions](app/src/main/java/com/arindam/android/training/kotlin/SortedByFunctions.kt)
 - Day 15: [Sequences](app/src/main/java/com/arindam/android/training/kotlin/Sequences.kt)
 - Day 16: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/android/training/kotlin/Timestamp.kt)
-- Day 17: [Delegation over Interface](app/src/main/java/com/arindam/android/training/kotlin/Delegation.kt)
+- Day 17: [Delegation over Inheritance](app/src/main/java/com/arindam/android/training/kotlin/Delegation.kt)
 - Day 18: [Infix Function](app/src/main/java/com/arindam/android/training/kotlin/InfixFunction.kt)
 
 
