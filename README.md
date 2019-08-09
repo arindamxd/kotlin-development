@@ -72,6 +72,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 16: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/android/training/kotlin/Timestamp.kt)
 - Day 17: [Delegation over Inheritance](app/src/main/java/com/arindam/android/training/kotlin/Delegation.kt)
 - Day 18: [Infix Function](app/src/main/java/com/arindam/android/training/kotlin/InfixFunction.kt)
+- Day 19: [Kotlin-Java Inter Operation](app/src/main/java/com/arindam/android/training/kotlin/interop/Vacation.java)
+- Day 20: [Destructuring Declarations](app/src/main/java/com/arindam/android/training/kotlin/Destructuring.kt)
 
 
 
