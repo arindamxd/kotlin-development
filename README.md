@@ -74,6 +74,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 - Day 18: [Infix Function](app/src/main/java/com/arindam/android/training/kotlin/InfixFunction.kt)
 - Day 19: [Kotlin-Java Inter Operation](app/src/main/java/com/arindam/android/training/kotlin/interop/Vacation.java)
 - Day 20: [Destructuring Declarations](app/src/main/java/com/arindam/android/training/kotlin/Destructuring.kt)
+- Day 21: [Operator Overloading](app/src/main/java/com/arindam/android/training/kotlin/OperatorOverloading.kt)
+- Day 22: [Jvm Static](app/src/main/java/com/arindam/android/training/kotlin/jvmstatic/JvmStatic.java)
 
 
 

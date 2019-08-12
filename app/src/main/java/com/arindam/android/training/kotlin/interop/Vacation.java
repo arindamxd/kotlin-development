@@ -8,7 +8,6 @@ package com.arindam.android.training.kotlin.interop;
  */
 
 public class Vacation {
-
     public static void main(String[] args) throws AllWorkNoPlayException {
         Developer developer = new Developer("John", true);
         developer.goToVacation();
