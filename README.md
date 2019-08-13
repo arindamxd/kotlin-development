@@ -114,6 +114,20 @@ setting, which applies to both the Android system UI and apps running on the dev
 - Helper: [ThemeHelper](app/src/main/java/com/arindam/android/training/daynight/ThemeHelper.kt)
 - Activity: [DayNightActivity](app/src/main/java/com/arindam/android/training/daynight/DayNightActivity.kt)
 
+
+
+## 6. COIL [Coroutine Image Loader](https://coil-kt.github.io/coil/)
+
+### An image loading library for Android backed by Kotlin Coroutines.
+
+- **Fast:** Coil performs a number of optimizations including memory and disk caching, downsampling the image in memory, re-using Bitmaps, automatically pausing/cancelling requests, and more.
+- **Lightweight:** Coil adds ~1500 methods to your APK (for apps that already use OkHttp and Coroutines), which is comparable to Picasso and significantly less than Glide and Fresco.
+- **Easy to use:** Coil's API leverages Kotlin's language features for simplicity and minimal boilerplate.
+- **Modern:** Coil is Kotlin-first and uses modern libraries including Coroutines, OkHttp, Okio, and AndroidX Lifecycles.
+
+![](documentation/coil.png =250x)
+- Activity: [CoilActivity](app/src/main/java/com/arindam/android/training/coil/CoilActivity.kt)
+
 ---
 
 ### Find this project useful ? :heart:

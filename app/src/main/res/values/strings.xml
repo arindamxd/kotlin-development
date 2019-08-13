@@ -11,6 +11,10 @@
     <string name="daynight_shortcut_long_label">DayNight Activity</string>
     <string name="daynight_disabled_message">DayNight Disabled</string>
 
+    <string name="coil_shortcut_short_label">Coil</string>
+    <string name="coil_shortcut_long_label">Coil Activity</string>
+    <string name="coil_disabled_message">Coil Disabled</string>
+
     <string name="mode_dark">Dark Mode</string>
     <string name="mode_light">Light Mode</string>
 </resources>
