@@ -125,7 +125,7 @@ setting, which applies to both the Android system UI and apps running on the dev
 - **Easy to use:** Coil's API leverages Kotlin's language features for simplicity and minimal boilerplate.
 - **Modern:** Coil is Kotlin-first and uses modern libraries including Coroutines, OkHttp, Okio, and AndroidX Lifecycles.
 
-<img src=/documentation/coil.png height='400px'>
+<img src="/documentation/coil.png" height="400px" alt="Coil Activity" align="middle" />
 
 - Activity: [CoilActivity](app/src/main/java/com/arindam/android/training/coil/CoilActivity.kt)
 
