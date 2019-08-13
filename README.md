@@ -116,7 +116,7 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 
 
-## 6. COIL [Coroutine Image Loader](https://coil-kt.github.io/coil/)
+## 6. [Coroutine Image Loader](https://coil-kt.github.io/coil/) (COIL)
 
 ### An image loading library for Android backed by Kotlin Coroutines.
 
@@ -125,7 +125,8 @@ setting, which applies to both the Android system UI and apps running on the dev
 - **Easy to use:** Coil's API leverages Kotlin's language features for simplicity and minimal boilerplate.
 - **Modern:** Coil is Kotlin-first and uses modern libraries including Coroutines, OkHttp, Okio, and AndroidX Lifecycles.
 
-![](/documentation/coil.png =250x)
+<img src=/documentation/coil.png height='100px'>
+
 - Activity: [CoilActivity](app/src/main/java/com/arindam/android/training/coil/CoilActivity.kt)
 
 ---
