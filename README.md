@@ -87,7 +87,7 @@ for your app, most launchers can only display four. However, there is no limit t
 pinned shortcuts to your app that users can create. Even though your app cannot remove pinned
 shortcuts, it can still disable them.
 
-<img src="/documentation/shortcuts/1.png" width="25%"> <img src="/documentation/shortcuts/2.png" width="25%"> <img src="/documentation/shortcuts/3.png" width="25%"> <img src="/documentation/shortcuts/4.png" width="25%">
+<img src="/documentation/shortcuts/1.png" width="25%"> <img src="/documentation/shortcuts/2.png" width="25%">
 
 - Manifest: [Meta Data](app/src/main/AndroidManifest.xml#L73)
 - Shortcut: [XML](app/src/main/res/xml/shortcuts.xml)
