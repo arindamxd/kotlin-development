@@ -1,6 +1,6 @@
 # Training (Android)
 
-Advanced Android Developement Practise
+Advanced Android Development Practise
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/arindamxd/certification-training/blob/master/LICENSE)
@@ -50,7 +50,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
 
-## 2. [Kotlin ↗](https://kotlinlang.org/) Training
+## 2. [Kotlin](https://kotlinlang.org/) Training [↗](https://kotlinlang.org/)
 
 ### #30DaysOfKotlin
 
@@ -82,7 +82,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
 
-## 3. Dynamic & Pinned [Shortcuts](https://developer.android.com/guide/topics/ui/shortcuts)
+## 3. Dynamic & Pinned [Shortcuts ↗](https://developer.android.com/guide/topics/ui/shortcuts)
 
 ### Handling Dynamic & Pinned Shortcuts [(Package)](app/src/main/java/com/arindam/android/training/shortcuts)
 > Although you can publish up to five shortcuts (static and dynamic shortcuts combined) at a time 
@@ -98,7 +98,7 @@ shortcuts, it can still disable them.
 
 
 
-## 4. Activity Alias [Element](https://developer.android.com/guide/topics/manifest/activity-alias-element)
+## 4. Activity Alias [Element ↗](https://developer.android.com/guide/topics/manifest/activity-alias-element)
 
 ### Understanding Activity Aliases in Android To Preserve Your Launchers
 > So, in order to keep the shortcut on the home screen, even after the change in the Launcher 
@@ -108,7 +108,7 @@ Activity name, we use the concept of Activtiy-Alias.
 
 
 
-## 5. Material [Dark Theme](https://material.io/develop/android/theming/dark/)
+## 5. Material [Dark Theme ↗](https://material.io/develop/android/theming/dark/)
 
 ### Implementing Dark Mode Theme in Android
 > Some of the most common benefits of a dark theme include conserving battery power for devices 
@@ -123,7 +123,7 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 
 
-## 6. [Coroutine Image Loader](https://coil-kt.github.io/coil/) (COIL)
+## 6. [Coroutine Image Loader](https://coil-kt.github.io/coil/) (COIL) [↗](https://coil-kt.github.io/coil/)
 
 ### An image loading library for Android backed by Kotlin Coroutines.
 
@@ -147,9 +147,9 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 ### Contact - Let's become friends
 
-- [Twitter ↗](https://twitter.com/arindamxd)
-- [Linkedin ↗](https://in.linkedin.com/in/arindamxd)
-- [GitHub ↗](https://github.com/arindamxd)
+- [Twitter](https://twitter.com/arindamxd)
+- [Linkedin](https://in.linkedin.com/in/arindamxd)
+- [GitHub](https://github.com/arindamxd)
 
 ### License
 
