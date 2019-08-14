@@ -120,10 +120,10 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 ### An image loading library for Android backed by Kotlin Coroutines.
 
-- _Fast_: Coil performs a number of optimizations including memory and disk caching, downsampling the image in memory, re-using Bitmaps, automatically pausing/cancelling requests, and more.
-- _Lightweight_: Coil adds ~1500 methods to your APK (for apps that already use OkHttp and Coroutines), which is comparable to Picasso and significantly less than Glide and Fresco.
-- _Easy to use_: Coil's API leverages Kotlin's language features for simplicity and minimal boilerplate.
-- _Modern_: Coil is Kotlin-first and uses modern libraries including Coroutines, OkHttp, Okio, and AndroidX Lifecycles.
+- **_Fast_**: Coil performs a number of optimizations including memory and disk caching, downsampling the image in memory, re-using Bitmaps, automatically pausing/cancelling requests, and more.
+- **_Lightweight_**: Coil adds ~1500 methods to your APK (for apps that already use OkHttp and Coroutines), which is comparable to Picasso and significantly less than Glide and Fresco.
+- **_Easy to use_**: Coil's API leverages Kotlin's language features for simplicity and minimal boilerplate.
+- **_Modern_**: Coil is Kotlin-first and uses modern libraries including Coroutines, OkHttp, Okio, and AndroidX Lifecycles.
 
 <img src="/documentation/coil/1.png" width="15%"> <img src="/documentation/coil/2.png" width="15%"> <img src="/documentation/coil/3.png" width="15%">
 
