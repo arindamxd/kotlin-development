@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.arindam.android.training">
 
-    <!-- Paytm Permission -->
+    <!-- PayTm Permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_SMS" />
@@ -17,10 +17,12 @@
         android:supportsRtl="true"
         android:theme="@style/DarkMode">
 
+        <!-- App Link [Meta Data]-->
         <meta-data
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
 
+        <!-- App Link -->
         <activity android:name=".home.MainActivity">
 
             <intent-filter
@@ -39,6 +41,7 @@
 
         </activity>
 
+        <!-- PayTm Integration -->
         <activity android:name=".payment.PaymentActivity">
 
             <intent-filter>
@@ -55,11 +58,14 @@
 
         </activity>
 
+        <!-- [Problem Solving] LiveData Shorting -->
         <activity android:name=".home.SortingActivity" />
 
+        <!-- Dynamic & Pinned Shortcuts -->
         <activity android:name=".shortcuts.OldActivity" />
         <activity android:name=".shortcuts.NewActivity" />
 
+        <!-- Activity Alias Element -->
         <activity-alias
             android:name="LaunchActivity"
             android:targetActivity=".shortcuts.OldActivity">
@@ -73,7 +79,11 @@
             <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
         </activity-alias>
 
+        <!-- Material Dark Theme -->
         <activity android:name=".daynight.DayNightActivity" />
+
+        <!-- Coroutine Image Loader -->
+        <activity android:name=".coil.CoilActivity" />
 
     </application>
 

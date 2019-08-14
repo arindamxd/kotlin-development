@@ -8,17 +8,18 @@ apply plugin: "kotlinx-serialization"
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.0"
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "com.arindam.android.training"
 
-        minSdkVersion 16
+        minSdkVersion 24 // 16
         targetSdkVersion 29
 
         versionCode 1
         versionName "1.0"
 
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -27,6 +28,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
     }
 }
 
@@ -54,6 +59,12 @@ dependencies {
 
     // Material Components
     implementation "com.google.android.material:material:$material_version"
+
+    // Coroutine Image Loader
+    implementation("io.coil-kt:coil:0.6.0")
+
+    // Multi Dex
+    implementation 'com.android.support:multidex:1.0.3'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

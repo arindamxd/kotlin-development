@@ -87,7 +87,9 @@ for your app, most launchers can only display four. However, there is no limit t
 pinned shortcuts to your app that users can create. Even though your app cannot remove pinned
 shortcuts, it can still disable them.
 
-- Manifest: [Meta Data](app/src/main/AndroidManifest.xml#L73)
+<img src="/documentation/shortcuts/1.png" width="25%"> <img src="/documentation/shortcuts/2.png" width="25%">
+
+- Manifest: [Meta Data](app/src/main/AndroidManifest.xml#L79)
 - Shortcut: [XML](app/src/main/res/xml/shortcuts.xml)
 - Activities: [OldActivity](app/src/main/java/com/arindam/android/training/shortcuts/OldActivity.kt), [NewActivity](app/src/main/java/com/arindam/android/training/shortcuts/NewActivity.kt)
 
@@ -99,7 +101,7 @@ shortcuts, it can still disable them.
 > So, in order to keep the shortcut on the home screen, even after the change in the Launcher 
 Activity name, we use the concept of Activtiy-Alias.
 
-- Manifest: [\<activity-alias\>](app/src/main/AndroidManifest.xml#L63&L74) `LaunchActivity`
+- Manifest: [\<activity-alias\>](app/src/main/AndroidManifest.xml#L69&L80) `LaunchActivity`
 
 
 
@@ -111,8 +113,25 @@ with OLED screens, reducing eye strain, and facilitating use in low-light enviro
 with Android Q, users are now able to switch their device into dark theme via a new system 
 setting, which applies to both the Android system UI and apps running on the device.
 
+<img src="/documentation/darkmode/1.png" width="25%"> <img src="/documentation/darkmode/2.png" width="25%">
+
 - Helper: [ThemeHelper](app/src/main/java/com/arindam/android/training/daynight/ThemeHelper.kt)
 - Activity: [DayNightActivity](app/src/main/java/com/arindam/android/training/daynight/DayNightActivity.kt)
+
+
+
+## 6. [Coroutine Image Loader](https://coil-kt.github.io/coil/) (COIL)
+
+### An image loading library for Android backed by Kotlin Coroutines.
+
+- **Fast**: Coil performs a number of optimizations including memory and disk caching, downsampling the image in memory, re-using Bitmaps, automatically pausing/cancelling requests, and more.
+- **Lightweight**: Coil adds ~1500 methods to your APK (for apps that already use OkHttp and Coroutines), which is comparable to Picasso and significantly less than Glide and Fresco.
+- **Easy to use**: Coil's API leverages Kotlin's language features for simplicity and minimal boilerplate.
+- **Modern**: Coil is Kotlin-first and uses modern libraries including Coroutines, OkHttp, Okio, and AndroidX Lifecycles.
+
+<img src="/documentation/coil/1.png" width="25%"> <img src="/documentation/coil/2.png" width="25%"> <img src="/documentation/coil/3.png" width="25%">
+
+- Activity: [CoilActivity](app/src/main/java/com/arindam/android/training/coil/CoilActivity.kt)
 
 ---
 
