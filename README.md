@@ -7,7 +7,7 @@ Advanced Android Developement Practise
 
 ---
 
-## 1. App [Link ⬈](https://developer.android.com/training/app-links)
+## 1. App [Link ↗](https://developer.android.com/training/app-links)
 
 ### Handling Android App Links (Deep linking)
 > Secure and specific, Seamless user experience, Android Instant Apps support, Engage users from 
@@ -50,14 +50,14 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
 
-## 2. [Kotlin](https://kotlinlang.org/) Training
+## 2. [Kotlin ↗](https://kotlinlang.org/) Training
 
 ### #30DaysOfKotlin
 
 - Day 1: [Synthetics](app/src/main/java/com/arindam/android/training/kotlin/Synthetics.kt)
 - Day 2: [Null-safety](app/src/main/java/com/arindam/android/training/kotlin/NullSafety.kt)
 - Day 3: [Null-check](app/src/main/java/com/arindam/android/training/kotlin/NullCheck.kt)
-- Day 4: [Sealed Class](app/src/main/java/com/arindam/android/training/kotlin/SealedClass.kt) #[⬈](https://github.com/Kotlin/KEEP/blob/master/proposals/sealed-class-inheritance.md#open-questions)
+- Day 4: [Sealed Class](app/src/main/java/com/arindam/android/training/kotlin/SealedClass.kt) [↗](https://github.com/Kotlin/KEEP/blob/master/proposals/sealed-class-inheritance.md#open-questions)
 - Day 5: [`.use` Extension](app/src/main/java/com/arindam/android/training/kotlin/UseExtension.kt)
 - Day 6: [Mask Credit Card Number](app/src/main/java/com/arindam/android/training/kotlin/CreditCardNumberMask.kt)
 - Day 7: [Grocery Shopping](app/src/main/java/com/arindam/android/training/kotlin/GroceryShopping.kt)
@@ -147,9 +147,9 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 ### Contact - Let's become friends
 
-- [Twitter ⬈](https://twitter.com/arindamxd)
-- [Linkedin](https://in.linkedin.com/in/arindamxd)
-- [GitHub](https://github.com/arindamxd)
+- [Twitter ↗](https://twitter.com/arindamxd)
+- [Linkedin ↗](https://in.linkedin.com/in/arindamxd)
+- [GitHub ↗](https://github.com/arindamxd)
 
 ### License
 
