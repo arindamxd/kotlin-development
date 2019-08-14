@@ -111,7 +111,9 @@ with OLED screens, reducing eye strain, and facilitating use in low-light enviro
 with Android Q, users are now able to switch their device into dark theme via a new system 
 setting, which applies to both the Android system UI and apps running on the device.
 
-<img src="/documentation/darkmode/1.png" width="20%"> <img src="/documentation/darkmode/2.png" width="20%">
+<p align="center">
+    <img src="/documentation/darkmode/1.png" width="20%"> <img src="/documentation/darkmode/2.png" width="20%">
+</p>
 
 - Helper: [ThemeHelper](app/src/main/java/com/arindam/android/training/daynight/ThemeHelper.kt)
 - Activity: [DayNightActivity](app/src/main/java/com/arindam/android/training/daynight/DayNightActivity.kt)
@@ -127,7 +129,9 @@ setting, which applies to both the Android system UI and apps running on the dev
 - **Easy to use**: Coil's API leverages Kotlin's language features for simplicity and minimal boilerplate.
 - **Modern**: Coil is Kotlin-first and uses modern libraries including Coroutines, OkHttp, Okio, and AndroidX Lifecycles.
 
-<img src="/documentation/coil/1.png" width="20%"> <img src="/documentation/coil/2.png" width="20%"> <img src="/documentation/coil/3.png" width="20%">
+<p align="center">
+    <img src="/documentation/coil/1.png" width="20%"> <img src="/documentation/coil/2.png" width="20%"> <img src="/documentation/coil/3.png" width="20%">
+</p>
 
 - Activity: [CoilActivity](app/src/main/java/com/arindam/android/training/coil/CoilActivity.kt)
 
