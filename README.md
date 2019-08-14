@@ -1,13 +1,13 @@
 # Training (Android)
 
-Advanced Android Developement Practise
+Advanced Android Development Practise
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/arindamxd/certification-training/blob/master/LICENSE)
 
 ---
 
-## 1. App [Link](https://developer.android.com/training/app-links)
+## 1. App [Link ↗](https://developer.android.com/training/app-links)
 
 ### Handling Android App Links (Deep linking)
 > Secure and specific, Seamless user experience, Android Instant Apps support, Engage users from 
@@ -50,36 +50,39 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
 
-## 2. [Kotlin](https://kotlinlang.org/) Training
+## 2. [Kotlin](https://kotlinlang.org/) Training [↗](https://kotlinlang.org/)
 
 ### #30DaysOfKotlin
 
 - Day 1: [Synthetics](app/src/main/java/com/arindam/android/training/kotlin/Synthetics.kt)
 - Day 2: [Null-safety](app/src/main/java/com/arindam/android/training/kotlin/NullSafety.kt)
-- Day 3: [`.use` Extension](app/src/main/java/com/arindam/android/training/kotlin/UseExtension.kt)
-- Day 4: [Mask Credit Card Number](app/src/main/java/com/arindam/android/training/kotlin/CreditCardNumberMask.kt)
-- Day 5: [Grocery Shopping](app/src/main/java/com/arindam/android/training/kotlin/GroceryShopping.kt)
-- Day 6: [Immutability](app/src/main/java/com/arindam/android/training/kotlin/Immutability.kt)
-- Day 7: [Partition](app/src/main/java/com/arindam/android/training/kotlin/Partition.kt)
-- Day 8: [Replace Deprecated Functions](app/src/main/java/com/arindam/android/training/kotlin/ReplaceDeprecated.kt)
-- Day 9: [Short and Group](app/src/main/java/com/arindam/android/training/kotlin/ShortAndGroup.kt)
-- Day 10: [Tail Recursion](app/src/main/java/com/arindam/android/training/kotlin/TailRecursion.kt)
-- Day 11: [Two Same Class Name](app/src/main/java/com/arindam/android/training/kotlin/SameClassName.kt)
-- Day 12: [Vetoable](app/src/main/java/com/arindam/android/training/kotlin/Vetoable.kt)
-- Day 13: [Serialization](app/src/main/java/com/arindam/android/training/kotlin/Serialization.kt)
-- Day 14: [Sorted By Functions](app/src/main/java/com/arindam/android/training/kotlin/SortedByFunctions.kt)
-- Day 15: [Sequences](app/src/main/java/com/arindam/android/training/kotlin/Sequences.kt)
-- Day 16: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/android/training/kotlin/Timestamp.kt)
-- Day 17: [Delegation over Inheritance](app/src/main/java/com/arindam/android/training/kotlin/Delegation.kt)
-- Day 18: [Infix Function](app/src/main/java/com/arindam/android/training/kotlin/InfixFunction.kt)
-- Day 19: [Kotlin-Java Inter Operation](app/src/main/java/com/arindam/android/training/kotlin/interop/Vacation.java)
-- Day 20: [Destructuring Declarations](app/src/main/java/com/arindam/android/training/kotlin/Destructuring.kt)
-- Day 21: [Operator Overloading](app/src/main/java/com/arindam/android/training/kotlin/OperatorOverloading.kt)
-- Day 22: [Jvm Static](app/src/main/java/com/arindam/android/training/kotlin/jvmstatic/JvmStatic.java)
+- Day 3: [Null-check](app/src/main/java/com/arindam/android/training/kotlin/NullCheck.kt)
+- Day 4: [Sealed Class](app/src/main/java/com/arindam/android/training/kotlin/SealedClass.kt) [↗](https://github.com/Kotlin/KEEP/blob/master/proposals/sealed-class-inheritance.md#open-questions)
+- Day 5: [`.use` Extension](app/src/main/java/com/arindam/android/training/kotlin/UseExtension.kt)
+- Day 6: [Mask Credit Card Number](app/src/main/java/com/arindam/android/training/kotlin/CreditCardNumberMask.kt)
+- Day 7: [Grocery Shopping](app/src/main/java/com/arindam/android/training/kotlin/GroceryShopping.kt)
+- Day 8: [Immutability](app/src/main/java/com/arindam/android/training/kotlin/Immutability.kt)
+- Day 9: [Partition](app/src/main/java/com/arindam/android/training/kotlin/Partition.kt)
+- Day 10: [Replace Deprecated Functions](app/src/main/java/com/arindam/android/training/kotlin/ReplaceDeprecated.kt)
+- Day 11: [Short and Group](app/src/main/java/com/arindam/android/training/kotlin/ShortAndGroup.kt)
+- Day 12: [Tail Recursion](app/src/main/java/com/arindam/android/training/kotlin/TailRecursion.kt)
+- Day 13: [Two Same Class Name](app/src/main/java/com/arindam/android/training/kotlin/SameClassName.kt)
+- Day 14: [Vetoable](app/src/main/java/com/arindam/android/training/kotlin/Vetoable.kt)
+- Day 15: [Serialization](app/src/main/java/com/arindam/android/training/kotlin/Serialization.kt)
+- Day 16: [Sorted By Functions](app/src/main/java/com/arindam/android/training/kotlin/SortedByFunctions.kt)
+- Day 17: [Sequences](app/src/main/java/com/arindam/android/training/kotlin/Sequences.kt)
+- Day 18: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/android/training/kotlin/Timestamp.kt)
+- Day 19: [Delegation over Inheritance](app/src/main/java/com/arindam/android/training/kotlin/Delegation.kt)
+- Day 20: [Infix Function](app/src/main/java/com/arindam/android/training/kotlin/InfixFunction.kt)
+- Day 21: [Kotlin-Java Inter Operation](app/src/main/java/com/arindam/android/training/kotlin/interop/Vacation.java)
+- Day 22: [Destructuring Declarations](app/src/main/java/com/arindam/android/training/kotlin/Destructuring.kt)
+- Day 23: [Operator Overloading](app/src/main/java/com/arindam/android/training/kotlin/OperatorOverloading.kt)
+- Day 24: [Jvm Static](app/src/main/java/com/arindam/android/training/kotlin/jvmstatic/JvmStatic.java)
+- Day 25: [Spread](app/src/main/java/com/arindam/android/training/kotlin/Spread.kt)
 
 
 
-## 3. Dynamic & Pinned [Shortcuts](https://developer.android.com/guide/topics/ui/shortcuts)
+## 3. Dynamic & Pinned [Shortcuts ↗](https://developer.android.com/guide/topics/ui/shortcuts)
 
 ### Handling Dynamic & Pinned Shortcuts [(Package)](app/src/main/java/com/arindam/android/training/shortcuts)
 > Although you can publish up to five shortcuts (static and dynamic shortcuts combined) at a time 
@@ -95,7 +98,7 @@ shortcuts, it can still disable them.
 
 
 
-## 4. Activity Alias [Element](https://developer.android.com/guide/topics/manifest/activity-alias-element)
+## 4. Activity Alias [Element ↗](https://developer.android.com/guide/topics/manifest/activity-alias-element)
 
 ### Understanding Activity Aliases in Android To Preserve Your Launchers
 > So, in order to keep the shortcut on the home screen, even after the change in the Launcher 
@@ -105,7 +108,7 @@ Activity name, we use the concept of Activtiy-Alias.
 
 
 
-## 5. Material [Dark Theme](https://material.io/develop/android/theming/dark/)
+## 5. Material [Dark Theme ↗](https://material.io/develop/android/theming/dark/)
 
 ### Implementing Dark Mode Theme in Android
 > Some of the most common benefits of a dark theme include conserving battery power for devices 
@@ -120,7 +123,7 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 
 
-## 6. [Coroutine Image Loader](https://coil-kt.github.io/coil/) (COIL)
+## 6. [Coroutine Image Loader](https://coil-kt.github.io/coil/) (COIL) [↗](https://coil-kt.github.io/coil/)
 
 ### An image loading library for Android backed by Kotlin Coroutines.
 
