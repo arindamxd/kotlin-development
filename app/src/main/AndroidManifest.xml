@@ -85,6 +85,18 @@
         <!-- Coroutine Image Loader -->
         <activity android:name=".coil.CoilActivity" />
 
+        <!-- CachingActivity In Android Using RxJava Operators -->
+        <activity android:name=".mdn.CachingActivity" />
+
+        <!-- Android Q Bubble API -->
+        <activity
+            android:name=".bubble.BubbleActivity"
+            android:allowEmbedded="true"
+            android:documentLaunchMode="always"
+            android:label="@string/title_activity_bubble"
+            android:resizeableActivity="true"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

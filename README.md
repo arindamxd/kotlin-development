@@ -136,6 +136,23 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 - Activity: [CoilActivity](app/src/main/java/com/arindam/android/training/coil/CoilActivity.kt)
 
+
+
+## 7. The [Bubble API](https://developer.android.com/preview/features/bubbles) (Android Q Preview) [↗](https://developer.android.com/preview/features/bubbles)
+
+### Bubbles are a new preview feature in Android Q, which let users easily multi-task from anywhere on their device.
+> **Note**: Bubbles are currently enabled for all users in the Q developer previews. 
+In the final release, Bubbles will be available for developer use only.
+
+- Bubbles take up screen real estate and cover other app content. You should only send a notification as a bubble if it is important enough such as ongoing communications, or if the user has explicitly requested a bubble for some content.
+- Note that the bubble can be disabled by the user. In that case, a bubble notification is shown as a normal notification. You should always make sure your bubble notification works as a normal notification as well.
+- Processes that are launched from a bubble (such as activities and dialogs) appear within the bubble container. This means a bubble can have a task stack. Things can get complicated if there is a lot of functionality or navigation within your bubble. We recommend keeping the functionality as specific and light-weight as possible.
+
+<img src="/documentation/bubble/1.png" width="25%"> <img src="/documentation/bubble/2.png" width="25%"> <img src="/documentation/bubble/3.png" width="25%">
+
+- Manifest: [\<activity\>](app/src/main/AndroidManifest.xml#L92&L98)
+- Activity: [BubbleActivity](app/src/main/java/com/arindam/android/training/bubble/BubbleActivity.kt)
+
 ---
 
 ### Find this project useful ? :heart:

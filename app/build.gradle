@@ -61,7 +61,7 @@ dependencies {
     implementation "com.google.android.material:material:$material_version"
 
     // Coroutine Image Loader
-    implementation("io.coil-kt:coil:0.6.0")
+    implementation('io.coil-kt:coil:0.6.1')
 
     // Multi Dex
     implementation 'com.android.support:multidex:1.0.3'

@@ -1,6 +1,7 @@
 package com.arindam.android.training.shortcuts
 
-import android.app.PendingIntent
+import android.annotation.SuppressLint
+import android.app.*
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ShortcutInfo
@@ -12,7 +13,9 @@ import android.os.Bundle
 import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.NotificationManagerCompat
 import com.arindam.android.training.R
+import com.arindam.android.training.bubble.BubbleActivity
 import kotlinx.android.synthetic.main.activity_old.*
 
 /**
@@ -21,7 +24,8 @@ import kotlinx.android.synthetic.main.activity_old.*
 
 class OldActivity : AppCompatActivity() {
 
-    private val TAG by lazy { OldActivity::class.java.simpleName }
+    private val tag by lazy { OldActivity::class.java.simpleName }
+    private val channelId by lazy { tag }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +35,7 @@ class OldActivity : AppCompatActivity() {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
                 createDynamicShortcut(this@OldActivity)
             } else {
-                Log.e(TAG, "Build SDK must greater or equal Nougat (N_MR1)")
+                Log.e(tag, "Build SDK must greater or equal Nougat (N_MR1)")
             }
         }
 
@@ -39,8 +43,17 @@ class OldActivity : AppCompatActivity() {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 createPinnedShortcut(this@OldActivity)
             } else {
-                Log.e(TAG, "Build SDK must greater or equal Oreo (O)")
+                Log.e(tag, "Build SDK must greater or equal Oreo (O)")
             }
+        }
+
+        bubble.setOnClickListener {
+            /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                createBubble()
+            } else {
+                Log.e(tag, "Build SDK must greater or equal Q")
+            }*/
+            createBubble()
         }
     }
 
@@ -97,6 +110,63 @@ class OldActivity : AppCompatActivity() {
 
                 it.requestPinShortcut(pinnedShortcutInfo, successCallback.intentSender)
             }
+        }
+    }
+
+    @SuppressLint("NewApi")
+    private fun createBubble() {
+        createNotificationChannel()
+
+        // Create bubble intent
+        val target = Intent(this, BubbleActivity::class.java)
+        val bubbleIntent = PendingIntent.getActivity(this, 0, target, 0 /* flags */)
+
+        // Create bubble metadata
+        val bubbleData = Notification.BubbleMetadata.Builder()
+                .setDesiredHeight(600)
+                .setIcon(Icon.createWithResource(this, R.drawable.bubble_icon))
+                .setIntent(bubbleIntent)
+                .setAutoExpandBubble(true)
+                //.setSuppressNotification(true) // Note: Although you can set these flags in Android Q Beta 2, they do not yet have any effect.
+                //.setAutoExpandBubble(true) // Note: Although you can set these flags in Android Q Beta 2, they do not yet have any effect.
+                .build()
+
+        val chatBot = Person.Builder()
+                .setBot(true)
+                .setName("BubbleClock")
+                .setImportant(true)
+                .build()
+
+        val builder = Notification.Builder(this, channelId)
+                .setContentTitle("Your clock is here")
+                .setContentText("Click to see clock")
+                .setContentIntent(bubbleIntent)
+                .setSmallIcon(R.drawable.bubble_icon)
+                .setBubbleMetadata(bubbleData)
+                .setAutoCancel(true)
+                .addPerson(chatBot)
+
+        val notificationManager = NotificationManagerCompat.from(this)
+        notificationManager.notify(5000, builder.build())
+    }
+
+    @SuppressLint("NewApi")
+    private fun createNotificationChannel() {
+        // Create the NotificationChannel, but only on API 26+ because
+        // the NotificationChannel class is new and not in the support library
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+
+            val name = getString(R.string.channel_name)
+            val description = getString(R.string.channel_description)
+            val importance = NotificationManager.IMPORTANCE_HIGH
+            val channel = NotificationChannel(channelId, name, importance)
+            channel.description = description
+            channel.setAllowBubbles(true)
+
+            // Register the channel with the system; you can't change the importance
+            // or other notification behaviors after this
+            val notificationManager = getSystemService(NotificationManager::class.java)
+            notificationManager!!.createNotificationChannel(channel)
         }
     }
 }

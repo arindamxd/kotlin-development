@@ -17,4 +17,9 @@
 
     <string name="mode_dark">Dark Mode</string>
     <string name="mode_light">Light Mode</string>
+
+    <string name="title_activity_bubble">Bubble</string>
+
+    <string name="channel_name">Bubble Channel</string>
+    <string name="channel_description">This is a channel for bubble API.</string>
 </resources>
