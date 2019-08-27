@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.arindam.android.training">
+    package="com.arindam.kotlin">
 
     <!-- PayTm Permission -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -84,6 +84,18 @@
 
         <!-- Coroutine Image Loader -->
         <activity android:name=".coil.CoilActivity" />
+
+        <!-- CachingActivity In Android Using RxJava Operators -->
+        <activity android:name=".mdn.CachingActivity" />
+
+        <!-- Android Q Bubble API -->
+        <activity
+            android:name=".bubble.BubbleActivity"
+            android:allowEmbedded="true"
+            android:documentLaunchMode="always"
+            android:label="@string/title_activity_bubble"
+            android:resizeableActivity="true"
+            android:theme="@style/AppTheme" />
 
     </application>
 
