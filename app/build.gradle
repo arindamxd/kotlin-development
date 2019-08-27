@@ -11,7 +11,7 @@ android {
     buildToolsVersion "29.0.2"
 
     defaultConfig {
-        applicationId "com.arindam.android.training"
+        applicationId "com.arindam.kotlin"
 
         minSdkVersion 24 // 16
         targetSdkVersion 29

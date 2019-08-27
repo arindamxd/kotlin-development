@@ -54,37 +54,37 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ### #30DaysOfKotlin
 
-- Day 1: [Synthetics](app/src/main/java/com/arindam/android/training/kotlin/Synthetics.kt)
-- Day 2: [Null-safety](app/src/main/java/com/arindam/android/training/kotlin/NullSafety.kt)
-- Day 3: [Null-check](app/src/main/java/com/arindam/android/training/kotlin/NullCheck.kt)
-- Day 4: [Sealed Class](app/src/main/java/com/arindam/android/training/kotlin/SealedClass.kt) [↗](https://github.com/Kotlin/KEEP/blob/master/proposals/sealed-class-inheritance.md#open-questions)
-- Day 5: [`.use` Extension](app/src/main/java/com/arindam/android/training/kotlin/UseExtension.kt)
-- Day 6: [Mask Credit Card Number](app/src/main/java/com/arindam/android/training/kotlin/CreditCardNumberMask.kt)
-- Day 7: [Grocery Shopping](app/src/main/java/com/arindam/android/training/kotlin/GroceryShopping.kt)
-- Day 8: [Immutability](app/src/main/java/com/arindam/android/training/kotlin/Immutability.kt)
-- Day 9: [Partition](app/src/main/java/com/arindam/android/training/kotlin/Partition.kt)
-- Day 10: [Replace Deprecated Functions](app/src/main/java/com/arindam/android/training/kotlin/ReplaceDeprecated.kt)
-- Day 11: [Short and Group](app/src/main/java/com/arindam/android/training/kotlin/ShortAndGroup.kt)
-- Day 12: [Tail Recursion](app/src/main/java/com/arindam/android/training/kotlin/TailRecursion.kt)
-- Day 13: [Two Same Class Name](app/src/main/java/com/arindam/android/training/kotlin/SameClassName.kt)
-- Day 14: [Vetoable](app/src/main/java/com/arindam/android/training/kotlin/Vetoable.kt)
-- Day 15: [Serialization](app/src/main/java/com/arindam/android/training/kotlin/Serialization.kt)
-- Day 16: [Sorted By Functions](app/src/main/java/com/arindam/android/training/kotlin/SortedByFunctions.kt)
-- Day 17: [Sequences](app/src/main/java/com/arindam/android/training/kotlin/Sequences.kt)
-- Day 18: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/android/training/kotlin/Timestamp.kt)
-- Day 19: [Delegation over Inheritance](app/src/main/java/com/arindam/android/training/kotlin/Delegation.kt)
-- Day 20: [Infix Function](app/src/main/java/com/arindam/android/training/kotlin/InfixFunction.kt)
-- Day 21: [Kotlin-Java Inter Operation](app/src/main/java/com/arindam/android/training/kotlin/interop/Vacation.java)
-- Day 22: [Destructuring Declarations](app/src/main/java/com/arindam/android/training/kotlin/Destructuring.kt)
-- Day 23: [Operator Overloading](app/src/main/java/com/arindam/android/training/kotlin/OperatorOverloading.kt)
-- Day 24: [Jvm Static](app/src/main/java/com/arindam/android/training/kotlin/jvmstatic/JvmStatic.java)
-- Day 25: [Spread](app/src/main/java/com/arindam/android/training/kotlin/Spread.kt)
+- Day 1: [Synthetics](app/src/main/java/com/arindam/kotlin/x/Synthetics.kt)
+- Day 2: [Null-safety](app/src/main/java/com/arindam/kotlin/x/NullSafety.kt)
+- Day 3: [Null-check](app/src/main/java/com/arindam/kotlin/x/NullCheck.kt)
+- Day 4: [Sealed Class](app/src/main/java/com/arindam/kotlin/x/SealedClass.kt) [↗](https://github.com/Kotlin/KEEP/blob/master/proposals/sealed-class-inheritance.md#open-questions)
+- Day 5: [`.use` Extension](app/src/main/java/com/arindam/kotlin/x/UseExtension.kt)
+- Day 6: [Mask Credit Card Number](app/src/main/java/com/arindam/kotlin/x/CreditCardNumberMask.kt)
+- Day 7: [Grocery Shopping](app/src/main/java/com/arindam/kotlin/x/GroceryShopping.kt)
+- Day 8: [Immutability](app/src/main/java/com/arindam/kotlin/x/Immutability.kt)
+- Day 9: [Partition](app/src/main/java/com/arindam/kotlin/x/Partition.kt)
+- Day 10: [Replace Deprecated Functions](app/src/main/java/com/arindam/kotlin/x/ReplaceDeprecated.kt)
+- Day 11: [Short and Group](app/src/main/java/com/arindam/kotlin/x/ShortAndGroup.kt)
+- Day 12: [Tail Recursion](app/src/main/java/com/arindam/kotlin/x/TailRecursion.kt)
+- Day 13: [Two Same Class Name](app/src/main/java/com/arindam/kotlin/x/SameClassName.kt)
+- Day 14: [Vetoable](app/src/main/java/com/arindam/kotlin/x/Vetoable.kt)
+- Day 15: [Serialization](app/src/main/java/com/arindam/kotlin/x/Serialization.kt)
+- Day 16: [Sorted By Functions](app/src/main/java/com/arindam/kotlin/x/SortedByFunctions.kt)
+- Day 17: [Sequences](app/src/main/java/com/arindam/kotlin/x/Sequences.kt)
+- Day 18: [Time Stamp & Zones Parsing](app/src/main/java/com/arindam/kotlin/x/Timestamp.kt)
+- Day 19: [Delegation over Inheritance](app/src/main/java/com/arindam/kotlin/x/Delegation.kt)
+- Day 20: [Infix Function](app/src/main/java/com/arindam/kotlin/x/InfixFunction.kt)
+- Day 21: [Kotlin-Java Inter Operation](app/src/main/java/com/arindam/kotlin/x/interop/Vacation.java)
+- Day 22: [Destructuring Declarations](app/src/main/java/com/arindam/kotlin/x/Destructuring.kt)
+- Day 23: [Operator Overloading](app/src/main/java/com/arindam/kotlin/x/OperatorOverloading.kt)
+- Day 24: [Jvm Static](app/src/main/java/com/arindam/kotlin/x/jvmstatic/JvmStatic.java)
+- Day 25: [Spread](app/src/main/java/com/arindam/kotlin/x/Spread.kt)
 
 
 
 ## 3. Dynamic & Pinned [Shortcuts ↗](https://developer.android.com/guide/topics/ui/shortcuts)
 
-### Handling Dynamic & Pinned Shortcuts [(Package)](app/src/main/java/com/arindam/android/training/shortcuts)
+### Handling Dynamic & Pinned Shortcuts [(Package)](app/src/main/java/com/arindam/kotlin/shortcuts)
 > Although you can publish up to five shortcuts (static and dynamic shortcuts combined) at a time 
 for your app, most launchers can only display four. However, there is no limit to the number of
 pinned shortcuts to your app that users can create. Even though your app cannot remove pinned
@@ -94,7 +94,7 @@ shortcuts, it can still disable them.
 
 - Manifest: [Meta Data](app/src/main/AndroidManifest.xml#L79)
 - Shortcut: [XML](app/src/main/res/xml/shortcuts.xml)
-- Activities: [OldActivity](app/src/main/java/com/arindam/android/training/shortcuts/OldActivity.kt), [NewActivity](app/src/main/java/com/arindam/android/training/shortcuts/NewActivity.kt)
+- Activities: [OldActivity](app/src/main/java/com/arindam/kotlin/shortcuts/OldActivity.kt), [NewActivity](app/src/main/java/com/arindam/kotlin/shortcuts/NewActivity.kt)
 
 
 
@@ -118,8 +118,8 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 <img src="/documentation/darkmode/1.png" width="25%"> <img src="/documentation/darkmode/2.png" width="25%">
 
-- Helper: [ThemeHelper](app/src/main/java/com/arindam/android/training/daynight/ThemeHelper.kt)
-- Activity: [DayNightActivity](app/src/main/java/com/arindam/android/training/daynight/DayNightActivity.kt)
+- Helper: [ThemeHelper](app/src/main/java/com/arindam/kotlin/daynight/ThemeHelper.kt)
+- Activity: [DayNightActivity](app/src/main/java/com/arindam/kotlin/daynight/DayNightActivity.kt)
 
 
 
@@ -134,7 +134,7 @@ setting, which applies to both the Android system UI and apps running on the dev
 
 <img src="/documentation/coil/1.png" width="25%"> <img src="/documentation/coil/2.png" width="25%"> <img src="/documentation/coil/3.png" width="25%">
 
-- Activity: [CoilActivity](app/src/main/java/com/arindam/android/training/coil/CoilActivity.kt)
+- Activity: [CoilActivity](app/src/main/java/com/arindam/kotlin/coil/CoilActivity.kt)
 
 
 
@@ -151,7 +151,19 @@ In the final release, Bubbles will be available for developer use only.
 <img src="/documentation/bubble/1.png" width="25%"> <img src="/documentation/bubble/2.png" width="25%"> <img src="/documentation/bubble/3.png" width="25%">
 
 - Manifest: [\<activity\>](app/src/main/AndroidManifest.xml#L92&L98)
-- Activity: [BubbleActivity](app/src/main/java/com/arindam/android/training/bubble/BubbleActivity.kt)
+- Activity: [BubbleActivity](app/src/main/java/com/arindam/kotlin/bubble/BubbleActivity.kt)
+
+
+
+## 7. Caching with RxJava Operators [↗](https://blog.mindorks.com/implement-caching-in-android-using-rxjava-operators)
+
+### Implement Caching in Android using RxJava Operators
+> First, we need to understand why caching is useful? Caching is very useful in the following situations:
+
+- **Reduce network calls**: We can reduce the network calls by caching the network response.
+- **Fetch the data very fast**: We can fetch the data very fast if it is cached.
+
+- Activity: 
 
 ---
 

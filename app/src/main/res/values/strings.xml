@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TrainingX</string>
+    <string name="app_name">Kotlin X</string>
 
     <string name="asset_statements" translatable="false">[{ \"include\": \"https://arindamxd.github.io/.well-known/assetlinks.json\" }]</string>
 

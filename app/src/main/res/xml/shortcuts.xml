@@ -11,7 +11,7 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.arindam.android.training"
-            android:targetClass="com.arindam.android.training.shortcuts.NewActivity"/>
+            android:targetClass="com.arindam.kotlin.shortcuts.NewActivity"/>
         <!-- If your shortcut is associated with multiple intents, include them
              here. The last intent in the list determines what the user sees when
              they launch this shortcut. -->
@@ -28,7 +28,7 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.arindam.android.training"
-            android:targetClass="com.arindam.android.training.daynight.DayNightActivity"/>
+            android:targetClass="com.arindam.kotlin.daynight.DayNightActivity"/>
         <categories android:name="android.shortcut.conversation"/>
     </shortcut>
 
@@ -42,7 +42,7 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.arindam.android.training"
-            android:targetClass="com.arindam.android.training.coil.CoilActivity"/>
+            android:targetClass="com.arindam.kotlin.coil.CoilActivity"/>
         <categories android:name="android.shortcut.conversation"/>
     </shortcut>
 
